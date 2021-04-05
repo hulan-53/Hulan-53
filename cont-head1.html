@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .container-nav{
+                    width: 100%;
+                    height: 17%;
+                    background-color: #2d3e50;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    position: fixed;
+                    top: 0;
+                    z-index: 100;
+                    
+                    
+                    
+                    
+                }
+
+                
+                
+            
+                .head-all{
+                    margin-right: 4.4rem;
+                    color: white;
+                    font-size: 0.9rem;
+                    font-size: 'Roboto','Serif';
+                    line-height: 1.3rem;
+                    letter-spacing: 0.8px;
+                    cursor: pointer;
+                }
+                .head-all:hover{
+                    color:rgb(197, 56, 56) ;
+                    transition: transform 2s ease-in-out;
+                }
+        
+                .head-a{
+                    position:absolute;
+                    left: 6rem;
+                }
+                .head-b{
+                    color: rgb(197, 56, 56);
+                }
+
+                @media screen and (max-width: 990px) {
+                     .container-nav > *:not(.head-a){
+                         display:none;
+                     }
+
+                 }
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        body{
+            margin:0;
+        }
+
+.containera{
+                   display: flex;
+                   flex-direction: column;
+                }
+        
+        
+        
+                .container{
+                    width: 100%;
+                
+                    background-color: #2d3e50;
+                    display: flex;
+                    flex-direction: row;
+                    position: relative;
+         
+                  
+                
+                    }
+
+
+
+                
+                .item2{
+                    background-color:#2d3e50 ;
+                    color: #fefefe;
+                    font-size: 14px;
+                    margin-top:0px;
+                    margin-left:15rem;
+                    margin-bottom: 6rem;
+                    padding-top: 3rem;
+                    letter-spacing: 0.4px;
+                    text-transform: uppercase;
+                    font-family: 'Roboto', serif;
+                }
+                .item2:hover{
+                    color: rgb(248, 81, 81);
+                    transform: translateX(30px);
+                }
+                .redtext{
+                    font-size: 14px;
+                    color: red;
+                }
+                .item3{
+                    margin-left: 6rem;
+                    margin-top: 6rem;
+                    color: white;
+                }
+                .item1{
+                    margin-top: 3rem;
+                    margin-left: 7.5rem;
+                }
+                .item4{
+                    width: 2rem;
+                    height: 2rem;
+                    border-radius: 50%;
+                    background-color: white;
+                    row-gap: 0.6rem;
+                    margin-right: 0.6rem;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                 }
+                 .items4{
+                     width: 20%;
+                     height: 15%;
+                     display: flex;
+                     flex-direction: row;
+                     margin-left: 4.4rem;
+                     padding-top: 5rem;
+                     justify-content: center;
+                     align-items: center;
+                   
+                 }
+
+
+                 .btn{
+                     width:250px;
+                     height: 2.5rem;
+                     background-color: white;
+                     margin-top: 135px;
+                     margin-left: -300px;
+                     
+                 }
+
+
+
+    
+                     
+                     
+ .clip-container{
+                     background-image: url("http://indra.institute/wp-content/uploads/2016/03/banner-slider-1.jpg");
+                     background-position: top;
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                 }
+        
+                 .pink-clip{
+                     clip-path: polygon(0% -58%, 0% 100%, 100% 100%, 69% 46%);
+                     background-color: rgba(204, 113, 113, 0.575);
+                     position: relative;
+                     width: 70%;
+                     height:100%;
+                     background-position: center;
+                     
+                     
+                 }
+        
+                 .black-triangle{
+                     background-image: url("http://indra.institute/wp-content/uploads/2016/03/banner-slider-thumb3.jpg ");
+                     background-size: cover;
+                     background-position: center;
+                     position: absolute;
+                     bottom: 0;
+                     right: 0;
+                     width: 70%;
+                     height: 50%;
+                     clip-path: polygon(70% -9%, 7% 114%, 108% 100%) ;
+                 }
+        
+                 .hushig-1{
+                     width: 100%;
+                     height: 100%;
+                     background-color: rgba(39, 39, 88, 0.493);
+                 }
+        
+                 .pink-topic{
+                     color: #fff;
+                     margin-top: 0px;
+                     padding-top: 120px;
+                     padding-left: 70px;
+                     background-position: center;
+             
+        
+                 }
+                 .pink-content{
+                     font-size: 1rem;
+                     line-height: 2rem;
+                     font-family: 'Roboto', sans-serif;
+                     margin-top: 2rem;
+                     color:#fff ;
+                     transform: translateX(6%);
+                     transform:translateY(-10%);
+                     width: 90%;
+                     height: 85%;
+                     
+                    
+                     
+                     background-position: center;
+                 }
+
+                 @media screen and (max-width: 990px) {
+                     .container > *:not(.item1){
+                         display:none;
+                     }
+
+                   
+
+                 }
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 .container-all-box{
+                    width: 100%;
+                    height: 80%;
+                    background-color:white;
+                    display: flex;
+                    margin-bottom: 5rem;
+                   flex-wrap: wrap;
+                    box-sizing: border-box;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    
+                    
+                    
+                 
+                }
+                .container-box{
+                    width: 24%;
+                    height: 100%;
+                    background-color: white;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                .boxes{
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                   
+                   
+                
+                    
+                    
+                    
+                   
+                    
+                    
+        
+                
+                .box-top{
+                    width: 5.8rem;
+                    height: 5.8rem;
+                    text-align: center;
+                    transform: rotate(45deg);
+                    
+                    box-sizing: border-box;
+                    position: absolute;
+                    margin-top: 6.5rem;
+                    margin-left: 3.7rem;
+                    text-align: center;
+                    margin-right: 3.7rem;
+                    
+                    
+                }
+                .box-content{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: justify;
+                }
+                .box-bottom{
+                    width: 129px;
+                    height: 108px;
+                    
+                    position: relative;
+                    top:107px;
+                    left:0px;
+                    
+                }
+
+                @media screen and (max-width: 990px) {
+            .container-box{
+                width:43%;
+            }
+                
+            }
+                .green-bottom{
+                    background-color: #92d438;
+        
+                }
+                .green-top{
+                    background-color: #85c927;
+                    z-index:3;
+        
+                }
+                .red-top{
+                    background-color: #fc5030;
+                    z-index:3;
+                }
+                .red-bottom{
+                    background-color: #fd5f42;
+                }
+                .blue-top{
+                    background-color: #2B8bcb;
+                    z-index:3;
+                }
+                .blue-bottom{
+                    background-color: #3b99d7;
+                }
+                .bluegr-top{
+                    background-color: #1cc3b5;
+                    z-index:3;
+                }
+                .bluegr-bottom{
+                    background-color: #26cbbd;
+                }
+                .box-topic{
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    color:#222;
+                    letter-spacing: 0.7px;
+                    line-height: 21px;
+                    font-family: 'Roboto' , sans-serif;
+                    margin-top: 135px;
+                    text-align: center;
+                }
+                .box-content{
+                    font-size: 15px;
+                    line-height: 26px;
+                    letter-spacing: 0.3px;
+                    color: #777;
+                    text-align: center;
+                }
+                .circle-white{
+                    width: 3.7rem;
+                    height: 3.7rem;
+                    background-color: white;
+                    border-radius: 50%;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transform: rotate(-45deg);
+                    margin-top: 1rem;
+                    margin-left: 1rem;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .red-btn{
+            width: 95%;
+            height: 4rem;
+            background-color: rgb(245, 132, 132);
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .red-btn:hover{
+            border:1px solid rgb(245, 132, 132);
+            background-color: white;
+            color:rgb(245, 132, 132);
+            transition: transform 5s ease-in-out;
+        }
+        .address{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .name{
+            width: 90%;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            padding-left: 1rem;
+        }
+        .boxs{
+            width: 90%;
+            height:3.5rem ;
+            border: 1px solid rgb(160, 159, 159);
+            padding-left: 1rem;
+        }
+        .second-order{
+            display: flex;
+            
+        }
+
+        .first-order{
+            display: flex;
+        }
+        .order{
+            text-align: center;
+        }
+
+        .send{
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 760px) {
+            .first-order{
+                display: flex;
+                flex-direction: column;
+            }
+            .second-order{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+
+
+
+
+        .order-mat{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+            .mat{
+                color: #777;
+                font-size: 1rem;
+                line-height: 26px;
+                letter-spacing: 0.3px;
+               
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .container-pic{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+                
+            }
+        .margin-right1{
+                 
+                margin:2rem;
+                
+               
+            }
+            .pic{
+                position: relative;
+                flex-wrap: wrap;
+            }
+            
+            
+            .profession{
+                font-family: Roboto, serif;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: 0.2px;
+
+                line-height: 25px;
+                text-align: center;
+                text-size-adjust: 100%;
+                text-transform: uppercase;
+                margin-bottom: 100px;
+                color: black;
+                font-weight: bolder;
+            }
+
+             .yel{
+                width:8rem;
+                height: 2px;
+                content: "";
+                background-color: red;
+                text-align: center;
+
+            }
+
+            .hushig{
+                width: 91%;
+                height: 95%;
+                background-color: rgba(9, 9, 59, 0.774);
+                color: white;
+                clip-path: polygon(100% 0%, 73% 0%, 35% 0%, 0% 0%, 0% 25%, 0% 53%, 100% 18%);
+                position: absolute;
+                display: flex;
+             
+                padding-top: 2.5rem;
+                padding-left: 2rem;
+                font-size: 20px;
+                letter-spacing: 0.7px;
+                line-height: 1.1;
+                font-weight: 500;
+                font-family: 'Roboto', sans-serif;
+                top:0;
+                left: 0;
+                
+            }
+            .red-circle{
+                width: 3.5rem;
+                height: 3.5rem;
+                border-radius: 50%;
+                background-color: rgb(231, 82, 82);
+                position: absolute;
+                left: 40%;
+                top:28%;
+            }
+
+            @media screen and (max-width: 990px) {
+            .pic{
+                width: 50%;
+               }
+
+              
+            }
+
+            @media screen and (max-width: 767px) {
+            .pic{
+                width: 95%;
+               }
+
+               
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            body{
+            margin:0;   
+        }
+        .image-first-row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image{
+            width:50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+        }
+        
+
+
+
+            
+           
+            .top{
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                line-height: 1.1;
+                color:#222;
+               text-align: center;
+                
+           }
+           .topic-first{
+               margin-top: 0px;
+           }
+
+           .con{
+              text-align: center;
+                font-family: 'work sans', sans serif;
+                color: #777;
+                font-size: 16px;
+                line-height: 1.6rem;
+                letter-spacing: 0.3px;
+                text-decoration:none; 
+                text-align: center;
+
+           }
+           .read-more1{
+                width: 10rem;
+                height: 2.7rem;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                font-size: 13px;
+                font-weight: 600;
+                color:#222;
+                text-align: center;
+                
+                border:2px  solid #222 ;
+                text-transform: uppercase;
+                padding-top:10px ;
+                letter-spacing: 1px;
+                text-decoration: none;
+                margin-bottom: 4rem;
+
+           }
+           .read-more1:hover{
+               background-color: rgb(255, 85, 85);
+               color: white;
+               text-decoration: underline;
+               border: none;
+           }
+
+           
+
+           
+           
+           .entry-date{
+               width:4.3rem;
+               height: 4.3rem;
+               background-color: #2d3e50;
+               line-height: 26px;
+               letter-spacing: 0.3px;
+               color:white;
+               position: relative;
+               bottom:2.5rem;
+              
+           }
+
+           .entry-line{
+               width: 100%;
+               height: 100%;
+               position:absolute;
+              /* transform: rotate(-45deg); */
+              transform-origin: right;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              
+               }
+
+               .entry-line{
+                   content: "";
+                   width:100%;
+                   height:2px;
+                   background-color: white;
+                   transform:rotate(-45deg);
+                   
+               }
+
+           .entry-day{
+               position: relative;
+               margin-top: 10px;
+               margin-left: 10px;
+               
+
+           }
+           .entry-month{
+               text-align: right;
+               padding-right: 10px;
+               margin-top: 3px;
+           }
+
+           @media screen and (max-width: 760px) {
+            .image{
+                width: 100%;
+            }
+            
+           }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           .containerbl{
+                width: 100%;
+                height: auto;
+                background-color: black;
+                
+                
+            }
+            .logo{
+                text-align: center;
+                padding: 2rem;
+            }
+
+               
+            
+            h3{
+                color:#fff;
+                text-transform: uppercase;
+                letter-spacing: 0.3px;
+                
+                font-size: 1.3rem;
+                
+                font-weight: light;
+                
+            }
+            .itemt{
+                color:#fff;
+                text-transform: uppercase;
+                letter-spacing: 0.3px;
+                
+                font-size: 1.3rem;
+                
+                font-weight: light;
+                
+
+
+            }
+
+            .icon{
+                background-color: grey;
+                color: white;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                
+                margin-right: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 3rem;
+               
+           
+            }
+            .icons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: o;
+                
+               
+               }
+               .circle{
+                   width: 13px;
+                   height:13px;
+                   border-radius:50% ;
+                   background-color: white;
+               }
+
+               .line{
+                   width: 100%;
+                   height: 0.5px;
+                   content: "";
+                   background-color: grey;
+                   gap:3px;
+                   display: flex;
+                   justify-content: center;
+                   text-align: center;
+                   gap:3px;
+                   
+                   margin-bottom: 0;
+                   
+               }
+               .lines{
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   
+               }
+
+               .adress1{
+                   color: rgb(161, 148, 148);
+                   font-size: 15px;
+                   letter-spacing: 0.5px;
+                   
+                   font-weight: 200;
+                   font-family: sans-serif;
+                 
+                   
+               }
+               .display{
+                   display:flex;
+                   flex-direction: column;
+                   width:25%;
+                   margin-right: -1.5rem;
+                   
+                   
+               }
+               .enroll{
+                   display:flex;
+                   flex-direction: row;
+                   gap:1rem;
+               }
+               .all-footer{
+                   display: flex;
+                   background-color: black;
+                   height: 70%;
+                   flex-wrap: wrap;
+                   justify-content:flex-end;
+                   
+                   
+                   
+               
+               }
+               .blue-line{
+                   width: 4rem;
+                   height: 0.3rem;
+                   background-color: rgb(116, 116, 255);
+                   content: "";
+                   margin-bottom: 2rem;
+               }
+          
+               
+               
+
+
+               
+
+               
+               .opinions{
+                   display: flex;
+                   flex-direction: column;
+                   
+                   
+                   
+               }
+               .opinion{
+                   width:75% ;
+                   background-color: white;
+                   gap: 1.5rem;
+                  
+                  border-radius: 5px;
+                  color: grey;
+                  margin-bottom: 1rem;
+                   
+               }
+               .size{
+                   height: 4rem;
+               }
+               .opinion4{
+                   height: 4rem;
+               }
+              
+               
+                
+               
+               .opinion3{
+                   
+                   height:80%;
+                  
+                 
+               }
+               .opinion4{
+                   width: 6rem;
+                   height: 4rem;
+                   background-color: white;
+                   color:black;
+                   border-radius: 5px;
+                   text-align: center;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   
+                   
+               }
+               .admission{
+                   color:white;
+               }
+               .red{
+                   color: rgb(253, 94, 94);
+                   font-size: 13px;
+
+               }
+               .first{
+                   display: flex;
+                  
+                   
+                   
+                  
+                   
+                   
+                   
+                 }
+
+                 
+                 .line-grey{
+                     width: 100%;
+                     height: 1px;
+                     content: "";
+                     background-color: grey;
+                     margin-top: 6rem;
+                     margin-bottom: 2.3rem;
+                 }
+                 .footer-deep{
+                    
+                         display:flex;
+                         width: 100%;
+                         height: 200px;
+                         background-color: black;
+                         
+                     
+                 }
+                 .fifty{
+                     width: 50%;
+                     display: flex;
+                 }
+                 .footer{
+                     justify-content: flex-start;
+                     gap:3rem;
+                     margin-left: 4rem;
+                 }
+                 .rights{
+                     justify-content: flex-end;
+                 }
+                 .right{
+                     color:white;
+                     padding-right: 4rem;
+                 }
+
+                 .footer{
+                     color:white;
+                     
+                 }
+                 .foot{
+                     color: grey;
+                     
+                 }
+
+               
+                 @media screen and (max-width: 990px) {
+                     .display{
+                         width:50%;
+                         
+                     }
+                     .footer-deep{
+                         display:flex;
+                         flex-direction: column;
+                     }
+
+                 }
+                 @media screen and (max-width: 767px) {
+                     .display{
+                         width:100%;
+                         margin-right: -6rem;
+                     }
+                   
+                        
+                     }
+                     @media screen and (max-width: 930px) {
+                     .right{
+                         margin-left:9rem;
+                     }
+                   
+                        
+                     }
+
+
+   
+    
+             
+
+                
+                 
+         
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/mn_MN/sdk.js#xfbml=1&version=v10.0" nonce="0CUjD9Sz"></script>
+
+    <div class="container-nav"> 
+        <div class="head-all head-a"><img src="http://indra.institute/wp-content/uploads/2019/03/logo.png  "height="80px"></div>
+        <div class="head-all head-b">нүүр</div>
+        <div class="head-all c">БИДНИЙ ТУХАЙ</div>
+        <div class="head-all d">ХӨТӨЛБӨРҮҮД</div>
+        <div class="head-all e">БЛОГ</div>
+        <div class="head-all f">АНГИУД</div>
+        <div class="head-all g">ХОЛБОО БАРИХ</div>
+    
+    </div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="item1"><img src="http://indra.institute/wp-content/uploads/2019/03/logo.png"></div>         
+         <div class="item2"><p class="redtext">-нүүр</p><br/>бидний тухай <br/><br/> хөтөлбөрүүд <br/><br/>блог<br/><br/>ангиуд<br/><br/>холбоо барих</div>
+        <div class="item3">(+976)7711-6060<br/><br/>(+976)8025-6060<br/><br/><br/>шинэ дөл цогцолбор 5 давхар,<br/> s outlet дэлгүүрийн зүүн талд </div>
+        <div class="items4">
+            
+            <div class="item4 a"><h3>F</h3></div>
+            <div class="item4 b"><h3></h3></div>
+            <div class="item4 c"><h3>G+</h3></div>
+            <div class="item4 d"><h3>In</h3></div>
+          </div>
+          
+
+        <div class="item5"><button class="btn">SEARCH</button>
+        </div>
+    </div>
+    
+    <div class="clip-container">
+        <div class="pink-clip"><h1 class="pink-topic">СУРГАЛТЫН ОРЧИН</h1><P class="pink-content">Lorem ipsum, dolor sit amet consectetur <br/> adipisicing elit. Ratione debitis numquam saepe<br/> dicta quidem quibusdam corrupti, optio esse, eaque<br/> earum rem aliquam repudiandae quaerat inventore commodi,<br/> ea amet tempore excepturi hic neque praesentium eveniet. <br/>Sed, accusamus. Rem blanditiis architecto ipsum.</P>
+            <div class="black-triangle">
+                <div class="hushig-1"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container-all-box">
+    
+            <div class="container-box box1">
+                <div class="boxes">
+                <div class="box-top green-top">
+                    <div class="circle-white"><img src="http://indra.institute/wp-content/uploads/2016/03/intro1.png"></div>
+                </div>
+                <div class="box-bottom green-bottom"></div>
+            </div>
+                <div class="box-topic"><h5>Англи хэлний 100 хувийн чадвартай  мэргэжилтэн төгсгөнө</h5></div>
+                <div  class="box-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non obcaecati quisquam voluptate totam aperiam, minus mollitia dolores sint ducimus eum at
+                     iusto deserunt repudiandae.</div>
+            </div>
+            <div class="container-box box2">
+                <div class="boxes">
+                <div class="box-top red-top">
+                    <div class="circle-white"><img src="http://indra.institute/wp-content/uploads/2016/03/intro3-33x27.png"></div>
+                </div>
+                <div class="box-bottom  red-bottom"></div>
+            </div>
+                <div class="box-topic"><h5>Хичээлийн хөтөлбөр 100 хувь практикт суурилж хичээллэнэ</h5></div>
+                <div  class="box-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non obcaecati quisquam voluptate totam aperiam, minus mollitia dolores sint ducimus eum at
+                     iusto deserunt repudiandae.</div>
+            </div>
+            <div class="container-box  box3">
+                <div class="boxes">
+                <div class="box-top blue-top">
+                    <div class="circle-white"><img src="http://indra.institute/wp-content/uploads/2016/03/intro2.png"></div>
+                </div>
+                <div class="box-bottom blue-bottom"></div>
+            </div>
+                <div class="box-topic"><h5>Амжилттай төгсөгчдийг 100 хувь ажлын байраар хангана</h5></div>
+                <div  class="box-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non obcaecati quisquam voluptate totam aperiam, minus mollitia dolores sint ducimus eum at
+                     iusto deserunt repudiandae.</div>
+            </div>
+            <div class="container-box  box4">
+                <div class="boxes">
+                <div class="box-top bluegr-top">
+                    <div class="circle-white"><img src="http://indra.institute/wp-content/uploads/2016/03/intro4.png"></div>
+                </div>
+                <div class="box-bottom  bluegr-bottom"></div>
+            </div>
+                <div class="box-topic"><h5>Гадаад багштай чадварлаг, мэргэшсэн хамт олон</h5></div>
+                <div  class="box-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Non obcaecati quisquam voluptate totam aperiam, minus mollitia dolores sint ducimus eum at
+                     iusto deserunt repudiandae.</div>
+            </div>
+        </div>
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div><h3 class="order" > БҮРТГҮҮЛЭХ</h3></div>
+
+
+        <div class="first-order ">
+        <div class="address flex">
+            <div class="name">Овог, нэр</div>
+            <input class=" boxs" placeholder="Овог, нэр" />
+           
+        </div>
+        <div class="address flex">
+            <div class="name">Имэйл хаяг</div>
+            <input class=" boxs" placeholder="Имэйл Хаяг" />
+        </div>
+      </div>
+      <div class="second-order flex">
+        <div class="address flex">
+          <div class="name">Утасны дугаар</div>
+          <input class=" boxs" placeholder="Утасны дугаар"/>
+          
+      </div>
+      <div class="address flex">
+          <div class="name">Анги сонгох</div>
+          <input class=" boxs" placeholder="Анги сонгох"/>
+      </div>
+     </div>
+     <div class="send">
+      <div class="red-btn">ИЛГЭЭХ</div>
+    </div>
+
+    <div class="order-mat"><p class="mat">Бүртгүүлэхдээ дараах материалыг авчирна. Үүнд: <br/><br/>   1.Иргэний үнэмлэх
+        <br/><br/>Бүртгүүлэх үйл ажиллагааны дараалал <br/><br/>1. Сургалтын албанаас оюутны код авчирна.
+    <br/>2.Сургалтын төлбөрийн 2000 ам.доллараас урьдчилж 1000 ам.долларыг төлнө. <br/>3. Сургалтын албанд 
+    бүртгүүлж суралцах гэрээ байгуулна.<br/><br/>Төлбөр төлөхдөө анхаарах зүйлс:<br/><br/>-ХаанБанкны 
+    5111506185/төг.данс/5111506196/usd.данс/тоот дансанд төлнө.<br/>-Төлбөр хүлээн авагч байгууллагын нэр:
+    "Индра боловсрол төв"</p></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="prof"><h3 class="profession">МЭРГЭЖИЛ</h3></div>
+        <div class="yellow-line"><span class="yel"></span></div>
+    
+<div class="container-pic">
+    <div class="pic margin-right1"><img src="http://indra.institute/wp-content/uploads/2016/03/course10.jpg">
+        <div class="hushig">ПРОГРАММ ХАНГАМЖ</div>
+        <div class="red-circle"></div>
+
+    </div>    
+    
+    <div class="pic  margin-right1"><img src="http://indra.institute/wp-content/uploads/2016/03/course9.jpg">
+        <div class="hushig">МАРКЕТИНГ МЕНЕЖМЕНТ</div>
+        <div class="red-circle"></div>
+
+    </div>    
+
+    <div class="pic  margin-right1"><img src="http://indra.institute/wp-content/uploads/2016/03/course6.jpg">
+        <div class="hushig">ГРАФИК ДИЗАЙН</div>
+        <div class="red-circle"></div>
+
+    </div>    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="image-first-row">
+    <div class="image"><img src="http://indra.institute/wp-content/uploads/2021/03/1-570x300.jpg"  width="100%">
+        <div class="entry-date">
+            <div class="entry-line"></div>
+            <div class="entry-day">03</div>
+            <div class="entry-month">Mar</div>
+        </div>
+        <div class="topic-first  top">ИЛТГЭЛИЙГ АМЖИЛТТАЙ ТАВИХ 9 АРГА </div>
+        <div class="content-first  con"><P> Бид дунд сургуулийн сурагч, их сургуулийн оюутан аль эсвэл байгууллагын
+            <br/>ажилтан байхаас үл хамааран олны өмнө илтгэл тавих шаардлагатай...
+        </P></div>
+        <a class="read-more1" href="http://indra.institute/544">READ MORE</a>
+    </div>  
+    <div class="image"><img src="http://indra.institute/wp-content/uploads/2021/02/1-3-570x300.jpg"  width="100%">
+        <div class="entry-date">
+            <div class="entry-line"></div>
+            <div class="entry-day">25</div>
+            <div class="entry-month">Feb</div>
+        </div>
+        <div class="topic-first  top">ИЛТГЭЛИЙГ АМЖИЛТТАЙ ТАВИХ 9 АРГА </div>
+        <div class="content-first  con"><P> Бид дунд сургуулийн сурагч, их сургуулийн оюутан аль эсвэл байгууллагын
+            <br/>ажилтан байхаас үл хамааран олны өмнө илтгэл тавих шаардлагатай...
+        </P></div>
+        <a class="read-more1" href="http://indra.institute/544">READ MORE</a>
+    </div>
+    </div>
+   
+
+
+
+    <div class="image-first-row">
+        <div class="image"><img src="http://indra.institute/wp-content/uploads/2021/02/1-1-570x300.jpeg"  width="100%">
+            <div class="entry-date">
+                <div class="entry-line"></div>
+                <div class="entry-day">24</div>
+                <div class="entry-month">Feb</div>
+            </div>
+            <div class="topic-first  top">ИЛТГЭЛИЙГ АМЖИЛТТАЙ ТАВИХ 9 АРГА </div>
+            <div class="content-first  con"><P> Бид дунд сургуулийн сурагч, их сургуулийн оюутан аль эсвэл байгууллагын
+                <br/>ажилтан байхаас үл хамааран олны өмнө илтгэл тавих шаардлагатай...
+            </P></div>
+            <a class="read-more1" href="http://indra.institute/544">READ MORE</a>
+        </div>  
+        <div class="image"><img src="http://indra.institute/wp-content/uploads/2021/02/1-768x338.jpeg" width="100%">
+            <div class="entry-date">
+                <div class="entry-line"></div>
+                <div class="entry-day">22</div>
+                <div class="entry-month">Feb</div>
+            </div>
+            <div class="topic-first  top">ИЛТГЭЛИЙГ АМЖИЛТТАЙ ТАВИХ 9 АРГА </div>
+            <div class="content-first  con"><P> Бид дунд сургуулийн сурагч, их сургуулийн оюутан аль эсвэл байгууллагын
+                <br/>ажилтан байхаас үл хамааран олны өмнө илтгэл тавих шаардлагатай...
+            </P></div>
+            <a class="read-more1" href="http://indra.institute/544">READ MORE</a>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/mn_MN/sdk.js#xfbml=1&version=v10.0" nonce="0CUjD9Sz"></script>
+        
+        
+        
+        
+            <div class="containerbl">
+                <div class="logo"><img src="http://indra.institute/wp-content/uploads/2019/03/logo-footer.png"></div>
+                <div class="icons">
+                    <div class="icon icon1"><h3>F</h3></div>
+                    <div class="icon icon2"><h3></h3></div>
+                    <div class="icon icon3"><h3>G+</h3></div>
+                    <div class="icon icon4"><h3>IN</h3></div>
+                    <div class="icon icon5">
+                        <div class="circle"></div>
+                    </div>    
+                    </div>
+                <div class="lines">
+                    <div class="line  line-1"></div>
+                    <div class=></div>
+                </div>
+        
+        
+        
+            <div class="all-footer">    
+            <div class="first  display ">
+                <div class="itemt "><h3>ХОЛБОО БАРИХ</h3></div>
+                <div class="blue-line"></div>
+                <div class="adress adress1"><p>ШИНЭ ДӨЛ ЦОГЦОЛБОР 5 <br/> ДАВХАР, S OUTLET <br/>ДЭЛГҮҮРИЙН ЗҮҮН ТАЛД
+                    <br/><br/>(+976) 8025-6060<br/>(+976) 8025-6060 <br/><br/>info@indra.institute</p></div>
+                </div>
+            <div class="second  display">
+                <div class="itemt  "><h3>UPCOMING EVENTS</h3></div>
+                <div class="blue-line"></div>
+                <div class="enroll">
+                    <div class="image-l"><img src="http://indra.institute/wp-content/uploads/2019/05/1-79x78.jpg"></div>
+                    <div class="admission">Энэтхэгийн Их <br/>Сургууль Элсэлтээ авч<br/> байна<br/><p  class="red">24 Mar 2019</p></div>
+                   
+                </div>
+            </div>
+            <div class="third  display">
+                <div class="itemt  "><h3>INDRA INSTITUTE</h3></div>
+                <div class="blue-line"></div>
+                <div class="fb-page" data-href="https://www.facebook.com/india.university" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/india.university" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/india.university">Энэтхэгийн Их Сургууль</a></blockquote></div>
+        
+            </div>
+            <div class="fourth  display">
+                <div class="itemt "><h3>САНАЛ ХҮСЭЛТ</h3></div>
+                <div class="blue-line"></div>
+                <div class="opinions">
+                    <input class="opinion opinion1 size"  placeholder="Нэр"/>
+                    <input class="opinion opinion2 size"  placeholder="Имэйл"/>
+                    <input class="opinion opinion3 "   placeholder="Санал хүсэлт"/>
+                    <div class=" opinion4  "  >Илгээх</div>
+                
+            </div>
+        
+         
+                
+            </div>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="line-grey"></div>   
+                <div class="footer-deep">
+                    <div class="footer  fifty">
+                        <div class="foot foot1">БИДНИЙ ТУАЙ</div>
+                        <div class="foot foot2">БЛОГ</div>
+                        <div class="foot foot3">HOME</div>
+                        <div class="foot foot4">ХОЛБОО БАРИХ</div>
+        
+                    </div>
+                    <div class="rights  fifty">
+                        <div class="right  foot">2019. Бүх эрх хуулиар хамгаалагасан.</div>
+                    </div>
+                 </div>
+        
+              
+    
+   
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+    
+</body>
+</html>
